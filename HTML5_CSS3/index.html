@@ -4,27 +4,27 @@
     <head>
         <meta charset="utf-8">
         <title>Jessica Nunes</title>
+        <link rel="stylesheet" href="style/index.css">
     </head>
 
     <body>
         <header>
             <!--cabeçalhoda página-->
-            <img src="img/lipsum.png" alt="nome: Lipsum"></img>
-            <h1>Lorem Ipsum</h1>
-
-            <img src="img/HTMLcode.jpg" alt="editor de texto contendo código HTML"></img>
-        </header>
+            <img src="img/lipsum.png" alt="nome: Lipsum" class="photo"></img>
+            <h1 id="title">Lorem Ipsum</h1>
+       </header>
 
         <section>
             <!--representa uma seção de lista de posts-->
             <header>
-                <h2>Posts</h2>
+                <h2 class="subtitle">Posts</h2>
             </header>
-            <article>
+            <article class="post">
                 <header>
-                    <h3>Post #1</h3>
+                    <h3 class="post_title">Post #1</h3>
+                    <img src="img/HTMLcode.jpg" alt="editor de texto contendo código HTML" id="imagemCodigoHTML"></img>
                 </header>
-                <p>
+                <p class="post_content">
                     <a href="https://www.lipsum.com/" target="_blank">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit. Nam at vulputate turpis. Praesent ullamcorper
                     eros ipsum, consequat tincidunt tellus consequat a. Sed in sagittis neque. Aenean id lacinia diam. Nunc
                     quis odio congue, pulvinar eros quis, blandit dui. Fusce nec lorem auctor ipsum posuere mollis. Donec et enim ligula. 
@@ -35,7 +35,7 @@
 
         <footer>
             <!--rodapé-->
-            <ol> 
+            <ul class="contacts_list"> 
             <!--
                 ul - lista não ordenada - apresenta potos: ° item, ° item 
                 ol - lista ordenada apresenta numeração: 1.item, 2.item
@@ -49,7 +49,7 @@
                 <li>
                     <a href="tel:(11)2222-3333">Telefone para contato: (11)2222-3333</a> 
                 </li>
-            </ol>
+            </ul>
         </footer>
     </body>
 
