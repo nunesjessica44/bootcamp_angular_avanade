@@ -1,5 +1,5 @@
-# Livro de receitas :man_cook: 
+# Livro de introdução ao markdown
 
-Olá! Bem vindo ao meu livro de receitas; 
+Olá! Bem vindo ao meu livro; 
 
-- Arquivo Marckdow
+- Primeiro arquivo Marckdow
